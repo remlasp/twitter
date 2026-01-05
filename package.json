@@ -1,9 +1,11 @@
 {
-  "name": "twitter(x)api",
+  "name": "twitter-x-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Twitter API Proxy",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,8 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1",
-    "node-fetch": "^2.7.0"
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "node-fetch": "^3.3.2"
   }
 }
